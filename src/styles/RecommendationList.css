@@ -1,0 +1,8 @@
+.RecommendationList {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* grid-template-columns: repeat(auto-fill, 150px); */
+  justify-content: center;
+  align-items: center;
+}
