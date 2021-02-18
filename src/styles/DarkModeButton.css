@@ -1,0 +1,15 @@
+.DarkModeButton {
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* background-color: white; */
+  box-shadow: 2px 3px 4px rgba(32, 33, 36, 0.15);
+}
+
+.DarkModeButton:hover {
+  box-shadow: 2px 3px 6px rgba(32, 33, 36, 0.28);
+  /* background-color: #fefefe; */
+}

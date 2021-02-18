@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import AppContext from "../context/AppContext";
 
-import "../styles/Recommendation.css";
+import "../styles/LightRecommendation.css";
 
-const Recommendation = ({
+const LightRecommendation = ({
   activity,
   type,
   participants,
@@ -11,13 +11,13 @@ const Recommendation = ({
   accessibility,
 }) => {
   const {
-    themeStyles: { button },
+    themeStyles: { buttonBorder },
   } = useContext(AppContext);
 
   type = type.charAt(0).toUpperCase() + type.slice(1);
 
   return (
-    <article style={button} className="Recommendation">
+    <article style={buttonBorder} className="Recommendation">
       <h3 className="Recommendation__Title">{activity}</h3>
       <p className="Recommendation__Info">
         <strong>Type:</strong> {type}
@@ -35,4 +35,4 @@ const Recommendation = ({
   );
 };
 
-export default Recommendation;
+export default LightRecommendation;

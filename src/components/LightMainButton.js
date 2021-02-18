@@ -2,14 +2,14 @@ import React, { useContext } from "react";
 import AppContext from "../context/AppContext";
 // import useRecommendations from "../hooks/useRecommendations";
 
-import "../styles/MainButton.css";
+import "../styles/LightMainButton.css";
 
 const API = "https://www.boredapi.com/api/activity/";
 
-const MainButton = () => {
+const LightMainButton = () => {
   const {
     updateRecommendations,
-    themeStyles: { button },
+    themeStyles: { buttonBorder },
   } = useContext(AppContext);
   // let [recommendation, setRecommendation] = useState([]);
 
@@ -22,8 +22,8 @@ const MainButton = () => {
   };
 
   return (
-    <button
-      style={button}
+    <p
+      style={buttonBorder}
       onClick={handleClick}
       type="button"
       className="Button"
@@ -31,8 +31,8 @@ const MainButton = () => {
       Click for a Random
       <br />
       Recommendation
-    </button>
+    </p>
   );
 };
 
-export default MainButton;
+export default LightMainButton;

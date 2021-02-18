@@ -1,4 +1,11 @@
 .Main {
-  min-height: calc(100vh - 100px - 150px);
+  min-height: calc(100vh - 15vh - 15vh);
   /* Viewport - Header - Footer */
+}
+
+.Button-Container {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }

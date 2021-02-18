@@ -11,5 +11,11 @@
 
 .Button:hover {
   box-shadow: 3px 4px 6px rgba(32, 33, 36, 0.28);
-  background-color: #f8f8f8;
+  background-color: #fefefe;
 }
+
+/* @media (min-width: 400px) {
+  .Footer h3 > a {
+    font-size: 2rem;
+  }
+} */

@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import AppContext from "../context/AppContext";
 
-import Recommendation from "./Recommendation";
+// import Recommendation from "./Recommendation";
+import LightRecommendation from "./LightRecommendation";
 
 import "../styles/RecommendationList.css";
 // import { act } from "react-dom/test-utils";
@@ -15,7 +16,7 @@ const RecommendationList = () => {
       <section className="RecommendationList">
         {recommendations.map(
           ({ activity, type, participants, price, accessibility, key }) => (
-            <Recommendation
+            <LightRecommendation
               key={key}
               activity={activity}
               type={type}

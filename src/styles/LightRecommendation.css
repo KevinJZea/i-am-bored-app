@@ -1,0 +1,35 @@
+.Recommendation {
+  height: 25rem;
+  width: 80%;
+  padding: 0.8rem 1.25rem;
+  /* background-color: white; */
+  border-radius: 0;
+  /* box-shadow: 2px 2px 5px rgb(26, 26, 26, 0.25); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+.Recommendation__Title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Recommendation__Info {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 400px) {
+  .Recommendation {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .Recommendation__Title {
+    font-size: 2.5rem;
+  }
+
+  .Recommendation__Info {
+    font-size: 1.5rem;
+  }
+}
