@@ -7,5 +7,5 @@ P.S.: Designed for mobile devices. Tablet and desktop version coming soon!
 
 ___
 
-This app was made using HTML, CSS, JavaScript & React.
+This app was made using HTML, CSS, JavaScript & React. Deployment and hosting with Firebase.
 You can see it [here](https://i-am-bored-app.web.app/).
