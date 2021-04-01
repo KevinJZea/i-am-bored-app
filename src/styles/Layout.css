@@ -1,6 +1,7 @@
 .Main {
   min-height: calc(100vh - 15vh - 15vh);
   /* Viewport - Header - Footer */
+  max-width: 600px;
 }
 
 .Button-Container {
